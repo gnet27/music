@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player </title>
+  
+  
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/solid.css'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- Tracks used in this music/audio player application are free to use. I downloaded them from Soundcloud and NCS websites. I am not the owner of these tracks.
+
+Please don't create new pen by just copying and pasting code from this pen ( as I have seen some of them ), if you do that then don't forget to link back to this original pen. If you want to copy this pen then simply use the Fork button. Thank you -->
+
+  <div id="app-cover">
+      <div id="bg-artwork"></div>
+      <div id="bg-layer"></div>
+      <div id="player">
+        <div id="player-track">
+          <div id="album-name"></div>
+          <div id="track-name"></div>
+          <div id="track-time">
+            <div id="current-time"></div>
+            <div id="track-length"></div>
+          </div>
+          <div id="s-area">
+            <div id="ins-time"></div>
+            <div id="s-hover"></div>
+            <div id="seek-bar"></div>
+          </div>
+        </div>
+        <div id="player-content">
+          <div id="album-art">
+            <img src="https://is3-ssl.mzstatic.com/image/thumb/Music118/v4/5e/4a/e3/5e4ae35f-f793-97ea-a609-4c15582aa0eb/075679862464.jpg/313x0w.jpg" class="active" id="_1">
+            <img src="https://is5-ssl.mzstatic.com/image/thumb/Music128/v4/54/17/96/541796d4-2988-a7db-c168-0a4f9508fef4/075679882011.jpg/313x0w.jpg" id="_2">
+            <img src="https://is5-ssl.mzstatic.com/image/thumb/Music62/v4/e7/59/4c/e7594c09-63fc-a3fb-55a0-6f4896af2181/054391952080.jpg/313x0w.jpg" id="_3">
+            <img src="https://is2-ssl.mzstatic.com/image/thumb/Music115/v4/bb/6d/8f/bb6d8f67-6d04-10b5-dd62-eb5809ac54fc/00602567879152.rgb.jpg/313x0w.jpg" id="_4">
+            <img src="https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/59/72/f9/5972f953-9cfd-1e2f-084a-4746ba8c38fa/00602577303135.rgb.jpg/313x0w.jpg" id="_5">
+            <div id="buffer-box">Buffering ...</div>
+          </div>
+          <div id="player-controls">
+            <div class="control">
+              <div class="button" id="play-previous">
+                <i class="fas fa-backward"></i>
+              </div>
+            </div>
+            <div class="control">
+              <div class="button" id="play-pause-button">
+                <i class="fas fa-play"></i>
+              </div>
+            </div>
+            <div class="control">
+              <div class="button" id="play-next">
+                <i class="fas fa-forward"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
